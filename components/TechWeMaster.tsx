@@ -21,10 +21,10 @@ const TechWeMaster = () => {
   const duplicatedTechs = [...technologies, ...technologies];
 
   return (
-    <section className="py-16 bg-slate-800/50 backdrop-blur-sm">
+    <section className="py-5 bg-slate-800/50 backdrop-blur-sm">
       <div className="container mx-auto px-4">
         {/* Section Title */}
-        <div className="text-center mb-12">
+        <div className="text-center py-5">
           <h2 className="text-md md:text-lg font-semibold text-gray-300 uppercase tracking-wide">
             Technologies We Master
           </h2>
