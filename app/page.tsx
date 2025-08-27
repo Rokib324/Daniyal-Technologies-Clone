@@ -1,6 +1,8 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import TechWeMaster from "@/components/TechWeMaster";
+import OurExpertise from "@/components/OurExpertise";
+import OurIdentity from "@/components/OurIdentity";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Nav />
       <Hero />
       <TechWeMaster />
+      <OurExpertise />
+      <OurIdentity />
     </div>
   );
 }
