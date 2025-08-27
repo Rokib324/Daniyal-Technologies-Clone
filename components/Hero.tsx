@@ -12,8 +12,8 @@ const Hero = () => {
         <div className=" absolute left-10 top-30 lg:top-25 lg:left-10 animate-bounce delay-300">
                 <LuSparkles className="text-blue-500 text-2xl font-bold" />
         </div>
-        <div className=" absolute left-30 bottom-30 lg:bottom-25 lg:left-10 animate-bounce delay-300">
-                <RiRobot2Line className="text-blue-500 text-2xl font-bold" />
+        <div className=" absolute text-purple-500 left-30 bottom-30 lg:bottom-25 lg:left-10 animate-bounce delay-300">
+                <RiRobot2Line className="text-2xl font-bold" />
         </div>
 
       <div className="absolute top-1/5 left-1/4 w-1/2 h-1/2 bg-blue-200/50 dark:bg-amber-500 blur-3xl opacity-20 rounded-full">
@@ -37,13 +37,13 @@ const Hero = () => {
           </div>
 
           {/* Description */}
-          <p className="text-xl md:text-2xl text-gray-300 mb-7 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
             We build intelligent SaaS products, AI-powered marketing suites, and custom applications that redefine industries and drive unprecedented growth.
           </p>
 
           {/* Call-to-action buttons */}
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center px-4 fade-in-up max-w-4xl mx-auto">
-            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary hover:bg-primary/90 h-11 rounded-md w-full sm:w-auto bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 text-white px-6 md:px-8 py-4 md:py-6 text-base md:text-lg font-semibold shadow-xl shadow-blue-500/25 hover:shadow-blue-500/40 transition-all duration-300">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 rounded-md w-full sm:w-auto bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 text-white px-6 md:px-9 py-4 md:py-6 text-base md:text-lg font-semibold shadow-xl shadow-blue-500/25 hover:shadow-blue-500/40 transition-all duration-300">
               Start Your Project
               <GoArrowRight className="w-4 h-4 " />
             </button>
