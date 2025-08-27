@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${prompt.variable} antialiased`}
+        className={`${inter.variable} ${prompt.variable} antialiased bg-blue-950`}
       >
         {children}
       </body>
