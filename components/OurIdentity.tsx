@@ -1,5 +1,5 @@
 import React from 'react';
-import { LuSparkles, LuCheck, LuDollarSign, LuUsers, LuGlobe, LuAward } from 'react-icons/lu';
+import { LuSparkles, LuDollarSign, LuUsers, LuGlobe, LuAward, LuCircleCheckBig } from 'react-icons/lu';
 
 const OurIdentity = () => {
   const achievements = [
@@ -70,9 +70,9 @@ const OurIdentity = () => {
             {/* Achievements List */}
             <ul className="space-y-4">
               {achievements.map((achievement, index) => (
-                <li key={index} className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 bg-green-500/20 border border-green-500/30 rounded-md flex items-center justify-center mt-0.5">
-                    <LuCheck className="text-green-400 text-sm" />
+                <li key={index} className="flex items-start gap-1">
+                  <div className="w-6 h-6 flex items-center justify-center">
+                    <LuCircleCheckBig className="text-green-400 text-sm font-bold" />
                   </div>
                   <span className="text-gray-300 text-base leading-relaxed">{achievement}</span>
                 </li>
